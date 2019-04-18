@@ -1,0 +1,158 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.mobile{
+		display: none;
+	}
+.baidutop{
+	height: 48px;
+}
+
+.baidutop .right{
+	float: right;
+	width: 650px;
+	padding: 19px 0px 5px 0px;
+}
+
+.baidutop .right div{
+	float: left;
+}
+.baidutop .right .menuList a{
+	margin-left:20px ;
+	color: #333;
+	font-weight: 700;
+	font-size: 20px;
+}
+
+.baidutop .right .loginModel a{
+	margin-left:20px ;
+	color: #333;
+	font-size: 20px;
+}
+
+.baidutop .moreBtn{
+	width: 90px;
+	height: 24px;
+	background: #38f;
+	margin-left:26px ;
+	font-size: 20px;
+	color: #fff;
+	line-height: 24px;
+	text-align: center;
+}
+
+.main{
+	margin-top: 160px;
+	text-align: center;
+}
+.main .img{
+	width: 270px;
+	height: 129px;
+	margin: 0 auto;
+	background: url(../img/bd_logo1.png) center;
+	background-size: 100% 100%;
+}
+.search{
+	width: 640px;
+	height: 50px;
+	margin: 0 auto;
+	
+}
+.search .inputLeft,.search .inputRight{
+	float: left;
+}
+.search .inputLeft{
+	width: 540px;
+	height: 50px;
+	border: 1px solid #ccc;
+}
+
+.search .inputLeft input{
+	width:480px ;
+	height: 50px;
+	border: none;
+	outline: none;
+	font-size: 16px;
+	background: none;
+}
+.search .inputRight{
+	width: 100px;
+	height: 50px;
+	background: #3385ff;
+	
+}
+.search .inputRight input{
+	background: none;
+	border: none;
+	color: #fff;
+	line-height: 50px;
+	font-size: 20px;
+	
+}
+.img1{
+		width: 500px;
+		height: 500px;
+		text-align: center;
+}
+	
+
+
+@media only screen and (max-width:640px ) {
+	
+	.baidutop{
+		display: none;
+		
+	}
+	
+	.mobile{
+		display: block;
+		height: 40px;
+		line-height: 40px;
+	}
+	.mobile a.iconleft{
+		float: left;
+		margin: 0 20px;
+	}
+	.mobile a.iconright{
+		float: right;
+		margin: 0 20px;
+	}
+	
+	.main .img{
+		width: 183px;
+		height: 57px;
+		margin: 0 auto;
+		background: url(../img/plus_logo_web.png);
+		background-size: 100% 100%;
+		background-position: center;
+	}
+	
+	
+	.search{
+		width: 90%;
+		margin: 50px auto;
+	}
+	.search .inputLeft{
+		width: 70%;
+		position: relative;
+	}
+	.search .inputRight{
+		width: 30%;
+		
+	}
+	.search .iconfont{
+		position: absolute;
+		right: 5px;
+		top: calc(50% - 9px) ;
+		
+	}
+	.img1{
+		width: 420px;
+		height: 420px;
+		text-align: center;
+	}
+	
+
+}
